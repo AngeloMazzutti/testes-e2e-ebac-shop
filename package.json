@@ -22,9 +22,10 @@
   },
   "homepage": "",
   "devDependencies": {
-    "cypress": "^9.7.0"
+    "cypress": "^13.6.6"
   },
   "dependencies": {
+    "@faker-js/faker": "^8.4.1",
     "faker": "^5.5.3"
   }
 }
