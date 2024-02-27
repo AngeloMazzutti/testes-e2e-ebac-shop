@@ -31,7 +31,7 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
     produtosPage.adicionarProdutoAoCarrinho('2559', 'XS', 'Green', 1);
 
     // Verificar se o produto foi adicionado com sucesso
-    cy.get('.woocommerce-message').should('contain', '1 x “Abominable Hoodie” foram adicionados no seu carrinho.');
+    cy.get('.woocommerce-message').should('contain', '“Abominable Hoodie” foi adicionado no seu carrinho.');
 
     // Clicar novamente no menu para continuar o teste
     cy.get('.woocommerce-message > .button').click();
